@@ -142,7 +142,7 @@ const main = async (wallets) => {
 	
 		const delayBeforeNext = randInt(config.minDelayBetweenAccsSec, config.maxDelayBetweenAccsSec);
 		logger.info(`${wallet.name} - sleeping before next ${(delayBeforeNext / 60).toFixed(2)} minutes...`);
-		await sleep(delayBeforeBridge);
+		await sleep(delayBeforeNext);
 	};	
 };
 
