@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "zksync-bridger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^4.2.21",
+    "ethers": "^6.10.0",
+    "global-agent": "^3.0.0",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.11.0"
+  }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "withdraw",
+        "type": "function",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "_l1Receiver"
+            }
+        ]
+    }
+]

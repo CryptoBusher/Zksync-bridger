@@ -1,0 +1,23 @@
+{
+	"okxAuth": {
+		"apiKey": "",
+		"secret": "",
+		"password": ""
+	},
+	"zkSyncRPC": "https://1rpc.io/zksync2-era",
+	"minWithdrawAmount": 0.01,
+	"maxWithdrawAmount": 0.02,
+	"minWithdrawDecimals": 3,
+	"maxWithdrawDecimals": 8,
+	"minBridgePercent": 95,
+	"maxBridgePercent": 100,
+	"minBridgeDecimals": 3,
+	"maxBridgeDecimals": 8,
+	"minDelayBeforeBridgeSec": 60,
+	"maxDelayBeforeBridgeSec": 180,
+	"minDelayBetweenAccsSec": 300,
+	"maxDelayBetweenAccsSec": 600,
+	"maxWithdrawalWaitSec": 600,
+	"shuffleWallets": false,
+	"skipIfFailedToSetProxy": true
+}
