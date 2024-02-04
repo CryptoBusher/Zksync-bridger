@@ -81,7 +81,8 @@ class Wallet {
 	}
 
 	async bridgeToEth(amountEth) {
-		await bridgeEth(this.signer, amountEth);
+		const hash = await bridgeEth(this.signer, amountEth);
+		return hash;
 	}
 };
 
