@@ -21,7 +21,8 @@ export class Okx {
 		};
 
 		const response = await this.okx.withdraw(coin, amountEth, address, undefined, params);
-		if (response.info.wdId === undefined) {
+		const wdId =  await response.info.wdId;
+		if (wdId === undefined) {
 			throw Error(`${JSON.stringify(response)}`);
 		}
     }
