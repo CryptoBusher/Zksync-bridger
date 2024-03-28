@@ -4,7 +4,23 @@
 		"secret": "",
 		"password": ""
 	},
+	"telegramData": {	
+		"botToken": "",
+		"chatIds": [
+			""
+		]
+	},
+	"gasPrices": {
+		"startMainnetGwei": 40,
+		"step": 5,
+		"delayMinutes": 10,
+		"maxMainnetGwei": 70,
+		"waitForGasBeforeCexWithdraw": true
+	},
+	"tryToBridgeTimes": 3,
+	"delayBeforeBridgeTriesSec": 300,
 	"zkSyncRPC": "https://1rpc.io/zksync2-era",
+	"mainnetRPC": "https://eth.llamarpc.com",
 	"minWithdrawAmount": 0.01,
 	"maxWithdrawAmount": 0.02,
 	"minWithdrawDecimals": 3,
@@ -18,6 +34,5 @@
 	"minDelayBetweenAccsSec": 300,
 	"maxDelayBetweenAccsSec": 600,
 	"maxWithdrawalWaitSec": 600,
-	"shuffleWallets": false,
-	"skipIfFailedToSetProxy": true
+	"shuffleWallets": false
 }
