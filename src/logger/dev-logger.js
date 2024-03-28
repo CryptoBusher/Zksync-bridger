@@ -7,14 +7,14 @@ function buildDevLogger() {
     })
     
     return createLogger({
-        level: 'debug',
+        level: 'info',
         format: format.combine(format.colorize(), format.timestamp({ format: 'YY-MM-DD HH:mm:ss' }), format.errors({stask: true}), logFormat),
         transports: [
             new transports.Console(),
-            // new transports.File({
-            //     filename: 'logger/logs/botlog.log',
-            //     level: 'debug'
-            // })
+            new transports.File({
+                filename: 'src/logger/botlog.log',
+                level: 'debug'
+            })
         ]
     });
 }
